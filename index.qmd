@@ -1,0 +1,25 @@
+---
+title: "DSAN 5650 Coding Workshop"
+subtitle: "Fridays 4-5pm, Online (Zoom) Sessions"
+author: "Jeff Jacobs ([`jj1088@georgetown.edu`](mailto:jj1088@georgetown.edu))"
+institute: "Georgetown University, Summer 2026"
+sidebar: mainnav
+listing:
+  sort-ui: false
+  filter-ui: false
+  type: table
+  include:
+    categories: "{Class Sessions}"
+  fields: [title,date]
+  sort: "lecnum asc"
+  table-hover: true
+#  date-format: full
+  date-format: "MMMM D"
+---
+
+This page hosts material for the **weekly coding workshops** held as part of ***DSAN 5650: Causal Inference for Computational Social Science*** at Georgetown University, for the Summer 2026 session (you can use the link in the sidebar to return to the [**main course homepage**](https://jjacobs.me/dsan5650))
+
+The workshop meets on **Fridays from 5pm to 6pm** online, via the **Zoom Link** provided in the sidebar. You can use the following links to view the notes for individual weeks:
+
+::: {#listing}
+:::

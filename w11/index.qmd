@@ -1,0 +1,114 @@
+---
+title: "Workshop Week 11: Sensitivity Analysis"
+subtitle: "*DSAN 5650: Causal Inference for Computational Social Science*<br><span class='subsubtitle'>Summer 2026, Georgetown University</span>"
+author: "Jeff Jacobs"
+institute: "[`jj1088@georgetown.edu`](mailto:jj1088@georgetown.edu)"
+bibliography: "../_DSAN5650.bib"
+date: 2026-07-31
+date-format: full
+lecnum: 11
+cache: false
+categories:
+  - "Class Sessions"
+tbl-cap-location: bottom
+crossref:
+  fig-title: "Fig"
+  title-delim: ". "
+format:
+  revealjs:
+    df-print: kable
+    footer: "DSAN 5650 Week 11: {{< var w11.footer >}}"
+    output-file: "slides.html"
+    html-math-method: mathjax
+    scrollable: true
+    link-external-icon: true
+    link-external-newwindow: true
+    echo: true
+    code-fold: true
+    theme: [default, "../dsan-globals/jjquarto.scss"]
+    include-in-header:
+      text: "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css'><link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css'>"
+    slide-number: true
+    simplemenu:
+      flat: true
+      barhtml:
+        header: "<div class='menubar'><span style='position: absolute; left: 8; padding-left: 8px;'><a href='./index.html'>&larr; Return to Notes</a></span><ul class='menu'></ul></div>"
+      scale: 0.5
+    revealjs-plugins:
+      - simplemenu
+  html:
+    df-print: kable
+    output-file: "index.html"
+    html-math-method: mathjax
+    link-external-icon: true
+    link-external-newwindow: true
+    echo: true
+    code-fold: true
+    include-in-header:
+      text: "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css'><link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css'>"
+---
+
+::: {.content-visible unless-format="revealjs"}
+
+<center>
+<a class="h2" href="./slides.html" target="_blank">Open slides in new window &rarr;</a>
+</center>
+
+:::
+
+# Final Project Drafts: Friday, 5:59pm EDT {data-name="Final Projects"}
+
+* On Canvas!
+* Think of it as a **skeleton** of the final project
+* Final submission = draft + missing pieces filled in
+
+# Topic Models Over Space and Time {data-stack-name="Topic Models"}
+
+## Topic Models {.smaller .crunch-title .crunch-ul .table-90}
+
+* Intuition is just: let's model **latent topics** "underlying" **observed words**
+
+| Section | Keywords |
+| - | - |
+| U.S. News | state, court, federal, republican |
+| World News | government, country, officials, minister |
+| Arts | music, show, art, dance |
+| Sports | game, league, team, coach |
+| Real Estate | home, bedrooms, bathrooms, building |
+
+* Already, by just classifying articles based on these keyword counts:
+
+| | Arts | Real Estate | Sports | U.S. News | World News | Total |
+|-:|:-:|:-:|:-:|:-:|:-:|
+| **Correct** | 3020 | 690 | 4860 | 1330 | 1730 | 11630 |
+| **Incorrect** | 750 | 60 | 370 | 1100 | 590 | 2870 |
+| **Accuracy** | 0.801 | 0.920 | 0.929 | 0.547 | 0.746 | 0.802 |
+
+## Topic Models as PGMs {.smaller .crunch-title .crunch-img}
+
+![From @blei_probabilistic_2012](images/lda.jpg){fig-align="center"}
+
+<center>
+
+*...Unlocks a world of social modeling through text!*
+
+</center>
+
+## Cross-Sectional Analysis
+
+@blaydes_mirrors_2018
+
+## Influence Over Time
+
+![From @barron_individuals_2018](images/novelty_transience.png){fig-align="center"}
+
+## Textual Influence Over Time
+
+![](images/novelty-resonance-marxism.svg){fig-align="center"}
+
+# Sensitivity Analysis 1: Sensitivity to Priors {data-stack-name="Sensitivity to Priors"}
+
+## References
+
+::: {#refs}
+:::

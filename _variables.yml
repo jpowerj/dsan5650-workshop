@@ -1,0 +1,40 @@
+zoom_url: "https://georgetown.zoom.us/j/98920056721?pwd=bzPp7bakbfXEdBXpoLAYsNIqcd3IO4.1"
+recording_url: "https://georgetown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1b54d832-55b1-45df-ad98-b450004b55d5"
+canvas_url: "https://georgetown.instructure.com/courses/210936"
+spaces_url: "https://chat.google.com/room/AAQA4Hyj6js?cls=7"
+feedback_url: "https://forms.gle/YNMxyfvsB5V3vF189"
+w04:
+  weeknum: 4
+  title: "Clearing the Path from Cause to Effect"
+  footer: "The Four Elemental Confounds"
+  date-md: "Jun 12"
+w05:
+  weeknum: 5
+  title: "Multilevel Modeling, Closing Backdoor Paths"
+  footer: "MLM, Backdoor Paths"
+  date-md: "Jun 19"
+w06:
+  weeknum: 6
+  title: "Midterm Pre-Review"
+  footer: "Bayesian Workflow"
+  date-md: "Jun 26"
+w08:
+  weeknum: 8
+  title: "Propensity Score Weighting"
+  footer: "Propensity Score Weighting"
+  date-md: "Jul 10"
+w09:
+  weeknum: 9
+  title: "Doubly-Robust Estimation and Instrumental Variables"
+  footer: "Instrumental Variables"
+  date-md: "Jul 17"
+w10:
+  weeknum: 10
+  title: "Text-as-Data"
+  footer: "Text-as-Data"
+  date-md: "Jul 24"
+w11:
+  weeknum: 11
+  title: "Sensitivity Analysis"
+  footer: "Sensitivity Analysis"
+  date-md: "Jul 31"
