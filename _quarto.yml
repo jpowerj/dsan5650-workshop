@@ -24,7 +24,7 @@ website:
         target: "_blank"
       - "---"
       - text: "Week 4: {{< var w04.date-md >}}"
-        href: "w04/index.qmd"
+        href: "w04/"
       - text: "Week 5: {{< var w05.date-md >}}"
         href: "w05/index.qmd"
       - text: "Week 6: {{< var w06.date-md >}}"

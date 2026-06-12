@@ -1,5 +1,5 @@
 ---
-title: "Workshop Week 4: Clearing the Path from Cause to Effect"
+title: "Workshop Week 4: Introduction to PyMC"
 subtitle: "*DSAN 5650: Causal Inference for Computational Social Science*<br><span class='subsubtitle'>Summer 2026, Georgetown University</span>"
 author: "Jeff Jacobs"
 institute: "[`jj1088@georgetown.edu`](mailto:jj1088@georgetown.edu)"
