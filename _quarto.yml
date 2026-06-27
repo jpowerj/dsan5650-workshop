@@ -45,9 +45,18 @@ website:
 format:
   html:
     theme:
-      light: [default, "./dsan-globals/jjquarto.scss"]
-      dark: [darkly, "./dsan-globals/jjquarto.scss"]
+      light:
+        - default
+        - "./dsan-globals/jjquarto.scss"
+        - "./dsan-globals/jjquarto-light.scss"
+      dark:
+        - darkly
+        - "./dsan-globals/jjquarto.scss"
+        - "./dsan-globals/jjquarto-dark.scss"
     css: "./dsan-globals/jjstyles.css"
+    # backgroundcolor: "#f0eadc"
+    # 50% lighter
+    # backgroundcolor: "#f7f4ed"
     toc: true
     link-external-newwindow: true
     link-external-icon: true
